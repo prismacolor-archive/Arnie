@@ -32,10 +32,8 @@ for n in range(mydoc.pageCount):
     # if a rectangle is found, append the text to a master table
     if point1 and point2:
         startcoordinates.append(point1)
-        # print(point1)
-        datatable.append(text)
+        # datatable.append(text)
         endcoordinates.append(point2)
-        # print(point2)
 
 # now loop through the rectangle coordinates and the text to extract the text inside each rectangle TR
 for x, y, z in zip(startcoordinates, endcoordinates, datatable):
@@ -44,21 +42,24 @@ for x, y, z in zip(startcoordinates, endcoordinates, datatable):
         eeprofile = [w for w in z if fitz.Rect(w[:4]).intersects(rectangle)]
     except Exception as e:
         print(e)
+        continue
     eeprofile.sort(key=itemgetter(3, 0))
     stats = groupby(eeprofile, key=itemgetter(3))
     for y1, gwords in stats:
         ee_text = " ".join(w[4] for w in gwords)
+        print(ee_text)
         master_ee_info.append(ee_text)
 
 # print(master_ee_info)
 ee_dataframe = pandas.DataFrame(master_ee_info)
 # print(ee_dataframe)
 
-for i, j in ee_dataframe.iterrows():
+'''for i, j in ee_dataframe.iterrows():
     # retrieve the text from inside the data frame TR
     if 'Name:' in j.values[0]:
-        ee_start = str(j.values).split()
-        lucy = "In the sky"
+        print(j.values[0])
+        # ee_start = str(j.array).split()
+        lucy = "In the sky"'''
 
 # this will store the coordinate info for later
 masterlist = zip(startcoordinates, endcoordinates, datatable)
