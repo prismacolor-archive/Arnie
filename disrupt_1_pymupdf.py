@@ -17,6 +17,11 @@ endcoordinates = []
 datatable = []
 master_ee_info = []
 
+# on this document, starting_point should be 'Name:' and end should be 'Miscellaneous Fields' TR
+# ideally we would need an example of this, maybe there's a short tutorial video the client can watch to get help with this
+starting_point = input('Please type the first word in the employee profile. (e.g. Name:, Employee:): ')
+end_point = input('Please type the last word in the employee profile. (e.g. Taxes:, Miscellaneous:): ')
+
 # loop through the pages in the pdf and gather the text TR
 for n in range(mydoc.pageCount):
     page = mydoc.loadPage(n)
@@ -26,8 +31,8 @@ for n in range(mydoc.pageCount):
     datatable.append(words)
 
     # set up the start and end of each rectangle
-    point1 = page.searchFor("Name", hit_max=1)
-    point2 = page.searchFor("Miscellaneous Fields", hit_max=1)
+    point1 = page.searchFor(starting_point, hit_max=1)
+    point2 = page.searchFor(end_point, hit_max=1)
 
     # if a rectangle is found, append the text to a master table
     if point1 and point2:
