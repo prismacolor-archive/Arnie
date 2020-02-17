@@ -58,6 +58,8 @@ def main():
                              [Sg.Text('Please enter the last item of text for this employee:')], \
                              [Sg.InputText('')], \
                              [Sg.Button('Map'), Sg.Button('Cancel')]
+                    window2 = Sg.Window('Parallel Script Testing Tool', layout)
+                    event, values = window.read()
 
                     # ask the client if they are done or have more? if so continue
                     # if not ees_can_be_mapped becomes false and we break

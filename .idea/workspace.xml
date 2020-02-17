@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949e06f7-94a2-418f-9c37-7df09121bc1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GUI_scripts/disrupt_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/disrupt1.5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_scripts/disrupt_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI_scripts/disrupt_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disrupt_1_pymupdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/disrupt_1_pymupdf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/disrupt_1_pymupdf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="135" />
+            <state relative-caret-position="-1041">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#41#54#0" expanded="true" />
               </folding>
@@ -46,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI_scripts/disrupt_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state relative-caret-position="297">
+              <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -73,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Python/Python37-32/Lib/site-packages/fitz/fitz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15181">
-              <caret line="897" selection-start-line="897" selection-end-line="897" />
+            <state relative-caret-position="168">
+              <caret line="880" selection-start-line="880" selection-end-line="880" />
             </state>
           </provider>
         </entry>
@@ -107,16 +112,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
-        <option value="$PROJECT_DIR$/disrupt_1_pymupdf.py" />
         <option value="$PROJECT_DIR$/GUI_scripts/disrupt_gui.py" />
+        <option value="$PROJECT_DIR$/disrupt_1_pymupdf.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4286" />
-    <option name="y" value="58" />
-    <option name="width" value="1291" />
-    <option name="height" value="695" />
+    <option name="x" value="3832" />
+    <option name="y" value="-152" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -247,20 +252,27 @@
       <option name="project" value="LOCAL" />
       <updated>1580847731862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mockup of gui">
+      <created>1581354291304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581354291304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-152" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2597471" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25922024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29252437" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -277,15 +289,31 @@
     <MESSAGE value="for disrupt project" />
     <MESSAGE value="added dataframe logic" />
     <MESSAGE value="fixed error with uneven lists, duplicate employees" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed error with uneven lists, duplicate employees" />
+    <MESSAGE value="mockup of gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="mockup of gui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/disrupt_1_pymupdf.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="5" />
+          <line>100</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/disrupt_1_pymupdf.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/disrupt_1_pymupdf.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/disrupt_1_pymupdf.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -308,6 +336,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/disrupt_1_tab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -318,38 +355,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python/Python37-32/Lib/site-packages/fitz/fitz.py">
+    <entry file="file://$PROJECT_DIR$/GUI_scripts/disrupt_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15181">
-          <caret line="897" selection-start-line="897" selection-end-line="897" />
+        <state relative-caret-position="297">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disrupt_1_tab.py">
+    <entry file="file://C:/Python/Python37-32/Lib/site-packages/fitz/fitz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="880" selection-start-line="880" selection-end-line="880" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/disrupt_1_pymupdf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="135" />
+        <state relative-caret-position="-1041">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#41#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI_scripts/disrupt_gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
