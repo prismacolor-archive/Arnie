@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949e06f7-94a2-418f-9c37-7df09121bc1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sample_data_0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample_data_1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample_data_2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disrupt_1_pymupdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/disrupt_1_pymupdf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/disrupt_1_tab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_data_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/sample_data_0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_data_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/sample_data_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_data_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/sample_data_2.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,21 +29,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/disrupt_1_pymupdf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+            <state relative-caret-position="323">
+              <caret line="76" column="67" lean-forward="true" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
               <folding>
                 <element signature="e#41#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/disrupt_1_tab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,32 +41,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI_scripts/disrupt_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="1020">
               <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding>
-                <element signature="e#41#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python/Python37-32/Lib/site-packages/fitz/fitz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="880" selection-start-line="880" selection-end-line="880" />
             </state>
           </provider>
         </entry>
@@ -138,6 +105,11 @@
             </path>
             <path>
               <item name="disrupt1.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disrupt1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="test_outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disrupt1.5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -156,6 +128,11 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tay042919\PycharmProjects\disrupt1.5\test_outputs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,8 +280,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/disrupt_1_pymupdf.py</url>
-          <line>42</line>
+          <line>48</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/disrupt_1_pymupdf.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -327,15 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disrupt_1_tab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -346,9 +319,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python/Python37-32/Lib/site-packages/fitz/fitz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14892">
+          <caret line="880" selection-start-line="880" selection-end-line="880" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GUI_scripts/disrupt_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="1020">
           <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -356,17 +336,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python/Python37-32/Lib/site-packages/fitz/fitz.py">
+    <entry file="file://$PROJECT_DIR$/disrupt_1_tab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="880" selection-start-line="880" selection-end-line="880" />
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/disrupt_1_pymupdf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+        <state relative-caret-position="323">
+          <caret line="76" column="67" lean-forward="true" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
           <folding>
             <element signature="e#41#54#0" expanded="true" />
           </folding>
