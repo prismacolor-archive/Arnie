@@ -5,10 +5,16 @@ import pandas
 import fitz
 
 # additional processing tools TR
+import datetime
 from operator import itemgetter
 from itertools import groupby
 import csv
 
+# create and clean a timestamp for data outputs
+timestamp = str(datetime.datetime.now())
+timestamp = timestamp.split('.')[0].replace('-', '_')
+timestamp = timestamp.replace(' ', '_')
+timestamp = timestamp.replace(':', '')
 
 # set up lists to store rectangle and employee info later TR
 my_file = "U:\\PC NAC\\Data Team\\Work in Progress\\Taylor_R\\Disrupt2020\\Phase1\\SampleDocs_HaveKeyValuePair\\Heartland_Redacted.pdf"
@@ -68,10 +74,12 @@ fitz.Document.close(mydoc)
 
 # Create a dataframe with all of the info TR
 ee_dataframe = pandas.DataFrame(master_ee_info)
-ee_dataframe.to_excel('dataframe.xlsx')
+dataframe_output = 'test_outputs\\dataframe_' + timestamp + '.xlsx'
+ee_dataframe.to_excel(dataframe_output)
 
 # write the data to a csv file for review TR
-with open('sample_data_15.csv', 'w+', newline='') as f:
+output_file = 'test_outputs\\sample_data_' + timestamp + '.csv'
+with open(output_file, 'w+', newline='') as f:
     writer = csv.DictWriter(f, ['X1', 'Y1', 'X2', 'Y2', 'Text', 'Block Number', 'Line Number', 'Word Number'])
     writer.writeheader()
 
