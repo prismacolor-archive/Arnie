@@ -86,5 +86,7 @@ with open(output_file, 'w+', newline='') as f:
     for item in storage:
         writer.writerow(item)
 
+x = 5
+
 
 
