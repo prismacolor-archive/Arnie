@@ -4,10 +4,6 @@
     <list default="true" id="949e06f7-94a2-418f-9c37-7df09121bc1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disrupt_1_pymupdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/disrupt_1_pymupdf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disrupt_1_tab.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_data_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/sample_data_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_data_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/sample_data_1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_data_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/sample_data_2.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../machinelearning/iris.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/disrupt_1_pymupdf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="76" column="67" lean-forward="true" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
+            <state relative-caret-position="272">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#41#54#0" expanded="true" />
               </folding>
@@ -41,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI_scripts/disrupt_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
+            <state relative-caret-position="969">
               <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -65,7 +52,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="ml_draft_branch" />
-        <entry key="$PROJECT_DIR$" value="werk2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -84,8 +71,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3832" />
-    <option name="y" value="-152" />
+    <option name="x" value="1912" />
+    <option name="y" value="-158" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -100,22 +87,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="disrupt1.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disrupt1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="Arnie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arnie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="disrupt1.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disrupt1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="Arnie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arnie" type="462c0819:PsiDirectoryNode" />
               <item name="test_outputs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disrupt1.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="disrupt1.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -126,8 +104,8 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -242,18 +220,26 @@
       <option name="project" value="LOCAL" />
       <updated>1581972149179</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1582049826590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582049826590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3832" y="-152" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-158" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25922024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25922024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29252437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29252437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,7 +259,8 @@
     <MESSAGE value="fixed error with uneven lists, duplicate employees" />
     <MESSAGE value="mockup of gui" />
     <MESSAGE value="added additional work on main script" />
-    <option name="LAST_COMMIT_MESSAGE" value="added additional work on main script" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -292,7 +279,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/PQB_GUI_Rerun/PQB_script_runner/PQB_ScriptRunner.py">
+    <entry file="file://$PROJECT_DIR$/../PQB_GUI_Rerun/PQB_script_runner/PQB_ScriptRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="663" column="60" selection-start-line="663" selection-start-column="60" selection-end-line="663" selection-end-column="60" />
@@ -302,13 +289,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../machinelearning/iris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../machinelearning/iris.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -319,16 +300,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python/Python37-32/Lib/site-packages/fitz/fitz.py">
+    <entry file="file://$PROJECT_DIR$/../Python/Python37-32/Lib/site-packages/fitz/fitz.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14892">
           <caret line="880" selection-start-line="880" selection-end-line="880" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/disrupt_1_tab.py" />
     <entry file="file://$PROJECT_DIR$/GUI_scripts/disrupt_gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
+        <state relative-caret-position="969">
           <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -336,19 +318,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disrupt_1_tab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test_outputs/sample_data_2020_02_18_150117.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/disrupt_1_pymupdf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="76" column="67" lean-forward="true" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#41#54#0" expanded="true" />
           </folding>

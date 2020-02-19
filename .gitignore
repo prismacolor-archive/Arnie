@@ -1,0 +1,9 @@
+# Ignore Python Class, Data, and Cache Files
+
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# ignore log files
+*.log
