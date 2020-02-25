@@ -1,2 +1,2 @@
 # Arnie
-experiements with pdf extraction and rectangles
+experiments with pdf extraction and rectangles
